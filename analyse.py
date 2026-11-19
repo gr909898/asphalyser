@@ -8,7 +8,6 @@ import matplotlib.pyplot as plt
 
 
 
-
 def process_img(asph_path, thresh_cal = 200):
     asph = np.fromfile(asph_path, dtype = np.uint8)
     asph = cv.imdecode(asph, cv.IMREAD_GRAYSCALE)
