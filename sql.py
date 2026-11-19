@@ -1,7 +1,6 @@
 import sqlite3
 import os
 
-
 def init_db():
     conn = sqlite3.connect('fractal_results.db')
     cursor = conn.cursor()
