@@ -8,7 +8,6 @@ import threading
 from analyse import process_img
 import sql
 
-
 file_path = ""
 openWindows = []
 
